@@ -1,9 +1,5 @@
 <?php
-/*
- * IMPORTANT:
- * Replace the placeholder values with your real InfinityFree database details.
- * Keep this file out of a PUBLIC GitHub repository if it contains your password.
- */
+
 
 $dbHost = 'YOUR_MYSQL_HOST';
 $dbUser = 'YOUR_MYSQL_USERNAME';
