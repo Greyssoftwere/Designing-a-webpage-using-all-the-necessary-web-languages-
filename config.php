@@ -1,0 +1,21 @@
+<?php
+/*
+ * IMPORTANT:
+ * Replace the placeholder values with your real InfinityFree database details.
+ * Keep this file out of a PUBLIC GitHub repository if it contains your password.
+ */
+
+$dbHost = 'YOUR_MYSQL_HOST';
+$dbUser = 'YOUR_MYSQL_USERNAME';
+$dbPassword = 'YOUR_HOSTING_ACCOUNT_PASSWORD';
+$dbName = 'YOUR_DATABASE_NAME';
+
+$conn = new mysqli($dbHost, $dbUser, $dbPassword, $dbName);
+
+if ($conn->connect_error) {
+    http_response_code(500);
+    die('Database connection failed.');
+}
+
+$conn->set_charset('utf8mb4');
+?>
