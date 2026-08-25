@@ -40,4 +40,4 @@ A simple HTML/CSS/JavaScript + PHP + MySQL project for InfinityFree.
 4. PHP returns the new status as JSON.
 5. JavaScript changes the status cell immediately without reloading the page.
 
-
+ https://greyssoftwere.github.io/Designing-a-webpage-using-all-the-necessary-web-languages-/
